@@ -1,0 +1,52 @@
+.addTask {
+  width: 40%;
+  padding: 3%;
+  margin: 2rem auto;
+  display: grid;
+  place-items: center;
+  background: #7b2869;
+  border-radius: 10px 10px 0px 0px;
+}
+.formControls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.formControls > .input {
+  height: 2.5rem;
+  width: 70%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ffbaba;
+  outline: none;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffbaba;
+}
+.formControls > button {
+  width: 30%;
+  background: #ffbaba;
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #7b2869;
+  cursor: pointer;
+  transition: background 300ms ease-out;
+}
+.formControls > button:hover {
+  background: #7b2869;
+  border: 1px solid #ffbaba;
+  border-radius: 10px 10px 0px 0px;
+  color: #ffbaba;
+  box-shadow: 0px 0px 5px #ffbaba;
+}
+.invalid {
+  border-bottom: 2px solid red !important;
+}
+.invalidBtn {
+  border: 2px solid red !important;
+}

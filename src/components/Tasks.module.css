@@ -1,0 +1,12 @@
+.tasks {
+  width: 40%;
+  height: auto;
+  margin: 1rem auto;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 1%;
+  border: 2px solid #7b2869;
+  border-radius: 0px 0px 10px 10px;
+  background: #ffbaba;
+}
