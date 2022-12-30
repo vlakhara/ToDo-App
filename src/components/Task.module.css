@@ -24,4 +24,9 @@
   font-weight: 700;
   color: #7b2869;
   cursor: pointer;
+  transition: transform 0.1s ease-out;
+}
+.task > button:hover {
+  position: relative;
+  transform: scale(1.5);
 }
